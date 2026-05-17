@@ -7,7 +7,8 @@ const App = () => {
 
   } 
   return (
-    <div className='h-screen w-full flex flex-col lg:flex-row bg-black text-white'>
+    <div className='h-screen lg:flex bg-black text-white'>
+      <h1 className='text-3xl font-bold'>Add Note</h1>
       <form onSubmit={(e)=>{
         submithandler(e)
       }}
@@ -33,10 +34,6 @@ const App = () => {
             <div className='h-52 w-40 rounded-2xl bg-white'></div>
             <div className='h-52 w-40 rounded-2xl bg-white'></div>
               <div className='h-52 w-40 rounded-2xl bg-white'></div>
-            <div className='h-52 w-40 rounded-2xl bg-white'></div>
-             <div className='h-52 w-40 rounded-2xl bg-white'></div>
-            <div className='h-52 w-40 rounded-2xl bg-white'></div>
-            <div className='h-52 w-40 rounded-2xl bg-white'></div>
 
         </div>
       </div>
