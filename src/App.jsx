@@ -60,7 +60,9 @@ const App = () => {
       <h1 className='text-3xl font-bold'>Your Notes</h1>
         <div className='flex flex-wrap gap-5  mt-5 overflow-auto'> 
 
-            function
+         {task.map(function(){
+          return <div className='h-52 w-40 rounded-xl bg-white'></div>
+         })} 
 
         </div>
       </div>
