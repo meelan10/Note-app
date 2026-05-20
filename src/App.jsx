@@ -55,6 +55,7 @@ const App = () => {
         </button>
 
       </form>
+      <br />
 
       <div className='lg:w-1/2 bg-black text-black p-10'>
       <h1 className='text-3xl font-bold'>Your Notes</h1>
