@@ -56,7 +56,7 @@ const App = () => {
 
       </form>
 
-      <div className='lg:w-1/2 bg-white text-black p-10'>
+      <div className='lg:w-1/2 bg-black text-black p-10'>
       <h1 className='text-3xl font-bold'>Your Notes</h1>
         <div className='flex flex-wrap gap-5  mt-5 overflow-auto'> 
 
