@@ -57,9 +57,9 @@ const App = () => {
       </form>
       <br />
 
-      <div className='lg:w-1/2 bg-black text-black p-10'>
-      <h1 className='text-3xl font-bold'>Your Notes</h1>
-        <div className='flex flex-wrap gap-5  mt-5 overflow-auto'> 
+      <div className='lg:w-1/2 lg:broder-l-2 p-10'>
+      <h1 className='text-3xl font-bold'>Recent Note</h1>
+        <div className='flex flex-wrap gap-5  mt-6 h-full overflow-auto'> 
 
          {task.map(function(){
           return <div className='h-52 w-40 rounded-xl bg-white'></div>
