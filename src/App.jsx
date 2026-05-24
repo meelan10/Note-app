@@ -64,7 +64,7 @@ const App = () => {
          {task.map(function(elem, idx){
           return <div key={idx} className='h-52 w-40 rounded-xl p-4 text-black bg-white'>
             <h3 className='leading-tight text-xl font-black'>{elem.title}</h3>
-            <h3 className=''></h3>
+          
           </div>
          })} 
 
